@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-blog-js","path":"/blog/gatsby","result":{"data":{"markdownRemark":{"id":"b4075acd-7ffb-53b1-9c35-008bf8630580","frontmatter":{"title":"My First Post","date":"2020-03-20"},"html":"<p>I just launched!</p>\n<h2>Topics Covered</h2>\n<ol>\n<li>Gatsby</li>\n<li>GraphQL</li>\n<li>React</li>\n</ol>"}},"pageContext":{"slug":"gatsby"}}}
