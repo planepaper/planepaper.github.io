@@ -1,7 +1,7 @@
 remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 title: Seungpyo Son
-logo: ./logo.jpg
+logo: ./assets/img/logo.jpg
 email: eddysonkr@gmail.com
 description: 👋 @planepaper
 favicon: true
@@ -25,4 +25,4 @@ navigation:
   - name: Readme
     link: ./index.html
   - name: Another Page
-    link: ./another-page.html
+    link: ./pages/another-page.html
