@@ -1,0 +1,12 @@
+#language-buttons {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+}
+
+.language-button {
+  text-align: center;
+  padding: 0 5px;
+}

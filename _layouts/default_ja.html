@@ -17,7 +17,6 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/styles/language-buttons.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="preload" href="{{site.logo | relative_url}}" as="image">
     {% include head-custom.html %}
   </head>
@@ -33,7 +32,6 @@
         </div>
       </div>
       <section>
-      {% include language-button.html %}
       {{ content }}
       </section>
       <footer>
