@@ -7,6 +7,8 @@ description: 👋 @planepaper
 favicon: true
 color-scheme: auto
 
+url: "https://planepaper.github.io/en"
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -22,7 +24,7 @@ platforms:
     link: https://www.linkedin.com/in/%EC%8A%B9%ED%91%9C-%EC%86%90-196a43202/
 
 navigation:
-  - name: Readme
-    link: ./index.html
+  - name: Just Page
+    link: ./just-page
   - name: Sample Page
-    link: ./pages/sample-page.html
+    link: ./sample-page
