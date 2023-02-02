@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /sample-page
 ---
 
 **[Home](https://planepaper.github.io/) >> [Projects](https://vaibhavvikas.github.io/projects.html) >> A Sample Page**
