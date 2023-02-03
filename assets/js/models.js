@@ -1,4 +1,3 @@
-// const DEFAULTORIGIN = 'https://planepaper.github.io';
 const DEFAULTORIGIN = window.location.origin;
 const availableLanguages = ['en', 'ja', 'ko'];
 const pathForLanguage = {
