@@ -7,7 +7,7 @@ description: 👋 @planepaper
 favicon: true
 color-scheme: auto
 
-url: "https://planepaper.github.io/en"
+url: "https://planepaper.github.io/"
 
 plugins:
   - jekyll-sitemap
