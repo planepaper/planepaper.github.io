@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**[Home](https://planepaper.github.io/) >> [Projects](https://vaibhavvikas.github.io/projects.html) >> A Sample Page**
+**[Home](https://planepaper.github.io/en/) >> A Sample Page**
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

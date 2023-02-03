@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-[Home](https://planepaper.github.io/)
+**Home**
 
 ### 👋 손승표 @planepaper
 
