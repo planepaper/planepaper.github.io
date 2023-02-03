@@ -8,17 +8,16 @@ const pathForLanguage = {
 
 class PathName {
 	fullPath;
-	language;
+	language = 'en';
 	path;
 	constructor(pathname) {
 		this.fullPath = pathname.substring(1);
 		availableLanguages.forEach((language) => {
-			if (this.fullPath.includes(language)) {
+			if (pathname.includes(language)) {
 				this.language = language;
 				this.path = pathname.replace(pathForLanguage[language],'');
 			}
 		});
-		if (!this.path) this.language = 'en';
 	}
 	
 	get pagePath() {
