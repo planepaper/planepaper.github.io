@@ -1,8 +1,8 @@
-const currentOrigin = window.location.origin;
-const currentPathname = window.location.pathname.substring(3);
-
-Array.from(document.getElementsByClassName('language-button'))
-    .forEach((languageButton) => {
-        const language = languageButton.getAttribute('data-language');
-        languageButton.firstElementChild.href = currentOrigin + `/${language}` + currentPathname;
-    });
+function addTranslationLinkToTopButtons() {
+	const currentPagePath = new PathName(window.location.pathname).pagePath;
+  const languageButtons = Array.from(document.getElementsByClassName('language-button'));
+  languageButtons.forEach((languageButton) => {
+		const language = languageButton.getAttribute('data-language');
+    languageButton.firstElementChild.href = DEFAULTORIGIN + pathForLanguage[language] + currentPagePath;
+  });
+}
