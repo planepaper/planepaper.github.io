@@ -25,6 +25,6 @@ platforms:
 
 navigation:
   - name: Just Page
-    link: ./pages/just-page.html
+    link: ./just-page.html
   - name: Sample Page
-    link: ./pages/sample-page.html
+    link: ./sample-page.html
