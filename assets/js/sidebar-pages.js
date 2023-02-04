@@ -1,12 +1,9 @@
-const language = window.location.pathname.substring(0, 3);
-bfs();
-
-function bfs() {
-    const content = document.querySelector('.content');
-    const allAsInContent = content.querySelectorAll('a');
-    Array.from(allAsInContent)
-        .forEach((link) => {
-            const linkUrl = new URL(link.href);
-            link.href = linkUrl.origin + language + linkUrl.pathname.substring(3);
-    })
+function addTranslationToSidebarLinks() {
+  const content = document.querySelector('.content');
+  const allLinksInContent = Array.from(content.querySelectorAll('a'));
+  allLinksInContent.forEach((link) => {
+    const linkUrl = new URL(link.href);
+    const currentPagePath = new PathName(linkUrl.pathname);
+    link.href = linkUrl.origin + pathForLanguage[currentPagePath.language] + currentPagePath.pagePath;
+  });
 }

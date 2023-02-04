@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**[Home](https://planepaper.github.io/en/) >> A Sample Page**
+**[Home](https://planepaper.github.io) >> A Sample Page**
 
 ### Small image
 
