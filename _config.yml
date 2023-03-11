@@ -28,3 +28,7 @@ navigation:
     link: ./just-page.html
   - name: Sample Page
     link: ./sample-page.html
+  - name: Incremental Update
+    link: ./incremental-update.html
+  - name: Racket Smash
+    link: ./racket-smash.html

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**[Home](https://planepaper.github.io/ko/) >> RacketSmash**
+**[Home](https://planepaper.github.io/ko/) >> Racket Smash**
 
 # RacketSmash
 
