@@ -5,7 +5,7 @@ layout: default
 **[Home](https://planepaper.github.io/ko/) >> Incremental Update**
 
 # Incremental Update
-![incrementalupdate](../resources/img/incrementalupdate.png)
+![incrementalupdate](../resources/incremental-update/feature.png)
 파일의 업데이트가 필요한 상황에서, 변경된 사항만이 담긴 패치파일을 다운받아, 로컬에서 직접 패치하는 방법
 
 
@@ -65,8 +65,8 @@ layout: default
 처음에 완성하고 배포한 결과, 기존 트래픽이 오히려 3배 늘어나 하루만에 급히 롤백됐었다.
 
 
-- 기존 업데이트 로직이 어떤 특수한 상황에서 그 즉시 3번이상 업데이트 시도하던 것이 문제 였다.
-    - 그 때문에 제 증분 업데이트 코드가 3번 이상 동작하며 비정상적인 트래픽이 발생했던 것입니다.
+- 기존 업데이트 로직이 어떤 특수한 상황에서 그 즉시 3번이상 업데이트 시도하던 것이 문제였다.
+    - 그 때문에 증분 업데이트 코드가 3번 이상 동작하며 비정상적인 트래픽이 발생했던 것.
 
 - 단기간의 개발이었기 때문에, End-to-end 테스트를 자동화가 아닌 수동으로 하다 놓친 문제였다.
   - 그리고 기존 업데이트 로직을 좀더 꼼꼼히 살피고 end-to-end 테스트를 자동화로 구성했다. 
