@@ -2,7 +2,7 @@
 layout: default
 ---
 
-**[Home](https://planepaper.github.io/ko/) >> Incremental Update**
+**[Home](https://planepaper.github.io/ja/) >> Incremental Update**
 
 # 増分アップデート
 
@@ -19,7 +19,7 @@ layout: default
 
 - 一日に7回ほど内容が頻繁に変更されていたが、変更内容は極めて少ないし
 
-- 「既存クライアントは当該1MBファイル全体を再度受け取る必要があった。`
+- `既存クライアントは当該1MBファイル全体を再度受け取る必要があった。`
 
 - **そのため、該当トラフィックにかかる費用が非常に高かった。**
 
