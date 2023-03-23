@@ -24,10 +24,6 @@ platforms:
     link: https://www.linkedin.com/in/%EC%8A%B9%ED%91%9C-%EC%86%90-196a43202/
 
 navigation:
-  - name: Just Page
-    link: ./just-page.html
-  - name: Sample Page
-    link: ./sample-page.html
   - name: Incremental Update
     link: ./incremental-update.html
   - name: Racket Smash
